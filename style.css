@@ -403,7 +403,7 @@ header{
     }
 
     .home-banner-content h2 {
-        font-size: 1rem;
+        font-size: 1.8rem;
         padding-top: 40px;
         
     }
@@ -417,6 +417,15 @@ header{
      min-width: 100px !important;
     }
  
+}
+
+
+@media (max-width: 576px){
+    .home-banner-content h2 {
+        font-size: 1rem;
+        padding-top: 30px;
+        
+    }
 }
 
 
@@ -2031,5 +2040,6 @@ footer a:hover::after{
   
   
   
+
 
 
